@@ -22,36 +22,67 @@ body {
   height: 48px;
   width: 100%;
   background-color: black;
-  display: flex;
   padding: 8px;
-  align-items: center;
+  display: flex;
 }
 
 .logo {
-  height: 72px;
   width: 72px;
-  margin: 20px;
+  height: 72px;
 }
 
 .logo img {
   height: 32px;
   width: 32px;
-  padding-top: 22px;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
+  position: absolute;
+  left: 20px;
+  top: 15px;
 }
 
 .home {
-  height: 12;
-  width: 12px;
-  margin: 0 0 0 8px;
-  padding: 12px;
-  background: #1f1f1f;
+  background-color: #1f1f1f;
+  width: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border-radius: 2rem;
+  border: 0 0 0 8px;
+}
+
+i {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.search {
+  width: 457px;
+  background-color: #1f1f1f;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  padding: 12px;
+  margin: 0 8px;
+}
+
+.search i {
+  opacity: 0.6;
+}
+
+.search input {
+  flex: 1;
+  background-color: #1f1f1f;
+  border: 0;
+  color:white;
+  opacity: 0.6 ;
+  font-size: 18px;
+  padding-left: 4px;
+}
+
+.search img {
+  padding: 0 4px 0 12px;
+  border-left: 1px solid rgba(255, 255, 255, 0.7)
 }
 
 /* sidebar */
