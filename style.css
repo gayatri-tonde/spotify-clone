@@ -28,15 +28,15 @@ body {
   overflow-x: hidden;
 }
 
-.nav{
-  display:flex;
-    justify-content: center;
+.nav {
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.links{
-  display:flex;
-    justify-content: space-between;
+.links {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -61,7 +61,7 @@ body {
   align-items: center;
   border-radius: 2rem;
   border: 0 0 0 8px;
-  height:48px;
+  height: 48px;
 }
 
 i {
@@ -104,12 +104,12 @@ i {
   display: flex;
   align-items: center;
   opacity: 0.7;
-  margin:0 12px;
+  margin: 0 12px;
 }
 
 .install i {
   font-size: 0.5rem;
-  border-radius: 6rem;   
+  border-radius: 6rem;
 
   border: 2px solid white;
   padding: 3px;
@@ -117,86 +117,150 @@ i {
 
 .install p {
   padding: 0 6px;
-  font-size:14px;
-  font-weight:600;
+  font-size: 14px;
+  font-weight: 600;
 }
 
-.premium button{
-  font-size:14px;
+.premium button {
+  font-size: 14px;
   background-color: white;
   border-radius: 2rem;
-  color:black;
+  color: black;
   font-weight: 700;
-  padding:2px 16px;
-  line-height:28px;
-  border:none;
+  padding: 2px 16px;
+  line-height: 28px;
+  border: none;
 }
 
-.you{
-  margin-left:14px;
-  width:48px;
+.you {
+  margin-left: 14px;
+  width: 48px;
   height: 48px;
   background-color: #1f1f1f;
   border-radius: 3rem;
-  display:flex;
-  align-items:center;
+  display: flex;
+  align-items: center;
   justify-content: center;
 }
 
 .you i {
-  font-size:28px;
+  font-size: 28px;
   line-height: 28px;
-  width:28px;
-  height:28px;
+  width: 28px;
+  height: 28px;
 }
 
-.bell i, .member i{
-  font-size:16px;
-  opacity:0.7;
-  margin:8px;
-
+.bell i,
+.member i {
+  font-size: 16px;
+  opacity: 0.7;
+  margin: 8px;
 }
-
-
 
 /* sidebar */
 .sidebar {
   background-color: #121212;
-  width: 383px;
+  width: 420px;
   border-radius: 1rem; /* 1rem=16pxpx */
-  margin:64px 4px 72px 8px;
+  margin: 64px 4px 72px 8px;
 }
 
-.library{
-  display:flex;
+.library {
+  display: flex;
   justify-content: center;
-  width:301px;
-  height:71px;
+  width: 420px;
+  height: 72px;
 }
 
-.inLib{
-  display:flex;
+.inLib {
+  display: flex;
   justify-content: space-between;
-  width: 351px;
-  height:36px;
-  padding:12px 16px 8px 16px ;
+  width: 388px;
+  height: 36px;
+  padding: 12px 16px 8px 16px;
+  align-items: center;
 }
 
-.inLib h1{
-  font-size:16px;
-  margin:0;
+.inLib h1 {
+  font-size: 16px;
+  margin: 0;
 }
 
 .inLib button {
-  
+  width: 100px;
+  height: 36px;
+  padding: 8px 16px;
+  background-color: #1f1f1f;
+  border-radius: 2rem;
+  border: none;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
+.inLib button i {
+  font-size: 16px;
+  opacity: 0.7;
+}
+
+.inLib button span {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.libBody {
+  padding: 0 8px 8px 8px;
+  width: 388px;
+  height: 398px;
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.libcard {
+  background-color: #1f1f1f;
+  width: 364px;
+  height: 102px;
+  padding: 16px 20px;
+  margin: 8px 0;
+  font-weight: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius:0.5rem;
+}
+
+.libcard span h1 {
+  font-size: 16px;
+  font-weight: 700px;
+}
+
+.libcard span span {
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 0.7;
+}
+
+.libcard_btn {
+  padding:4px 16px;
+  font-size:14px;
+  background-color:white;
+  color:black;
+  border:none;
+  border-radius:2rem;
+  height:32px;
+  font-weight:700;
+}
+
+/* main-content */
 .main-content {
   background-color: #121212;
   border-radius: 1rem;
   flex: 1; /*assign other flex items the required space and the remaining entire space to this item*/
   overflow: auto;
-  margin:64px 8px 72px 4px;
+  margin: 64px 8px 72px 4px;
 }
 
 .music-player {
@@ -204,5 +268,5 @@ i {
   position: fixed;
   bottom: 0;
   width: 100%;
-   height: 72px;
+  height: 72px;
 }
