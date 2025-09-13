@@ -18,11 +18,11 @@ body {
 /* top navigation bar */
 .topbar {
   position: fixed;
-  top: 0px;
-  height: 48px;
+  top: 0;
+  height: 3rem;
   width: 100%;
   background-color: black;
-  padding: 8px;
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   overflow-x: hidden;
@@ -41,44 +41,44 @@ body {
 }
 
 .logo {
-  width: 72px;
-  height: 72px;
+  width: 4.5rem;
+  height: 4.5rem;
 }
 
 .logo img {
-  height: 32px;
-  width: 32px;
+  height: 2rem;
+  width: 2rem;
   position: absolute;
-  left: 20px;
-  top: 15px;
+  left: 1.25rem;
+  top: 0.9375rem;
 }
 
 .home {
   background-color: #1f1f1f;
-  width: 48px;
+  width: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 2rem;
-  border: 0 0 0 8px;
-  height: 48px;
+  border: 0 0 00.5rem;
+  height: 3rem;
 }
 
 i {
   text-decoration: none;
   color: white;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 
 .search {
-  width: 474px;
+  width: 29.625rem;
   background-color: #1f1f1f;
   border-radius: 3rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px;
-  margin: 0 8px;
+  padding: 0.75rem;
+  margin: 00.5remem;
 }
 
 .search i {
@@ -91,12 +91,12 @@ i {
   border: 0;
   color: white;
   opacity: 0.6;
-  font-size: 18px;
-  padding-left: 4px;
+  font-size: 1.125rem;
+  padding-left: 0.25rem;
 }
 
 .search img {
-  padding: 0 4px 0 12px;
+  padding: 0 0.25rem 0 0.75rem;
   border-left: 1px solid rgba(255, 255, 255, 0.7);
 }
 
@@ -104,38 +104,38 @@ i {
   display: flex;
   align-items: center;
   opacity: 0.7;
-  margin: 0 12px;
-}
-
-.install i {
-  font-size: 0.5rem;
-  border-radius: 6rem;
-
-  border: 2px solid white;
-  padding: 3px;
+  margin: 0 0.75rem;
 }
 
 .install p {
-  padding: 0 6px;
-  font-size: 14px;
+  padding: 0 0.375rem;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 
-.premium button {
-  font-size: 14px;
-  background-color: white;
+.btn {
+  font-size: 0.875rem;
   border-radius: 2rem;
-  color: black;
   font-weight: 700;
-  padding: 2px 16px;
-  line-height: 28px;
+  padding: 0.125rem 1rem;
+  line-height: 1.75rem;
   border: none;
 }
 
+.dark-btn {
+  background-color: #1f1f1f;
+  color: white;
+}
+
+.light-btn {
+  background-color: white;
+  color: black;
+}
+
 .you {
-  margin-left: 14px;
-  width: 48px;
-  height: 48px;
+  margin-left: 0.875rem;
+  width: 3rem;
+  height: 3rem;
   background-color: #1f1f1f;
   border-radius: 3rem;
   display: flex;
@@ -144,86 +144,81 @@ i {
 }
 
 .you i {
-  font-size: 28px;
-  line-height: 28px;
-  width: 28px;
-  height: 28px;
+  font-size: 1.75rem;
+  line-height: 1.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
 }
 
 .bell i,
 .member i {
-  font-size: 16px;
+  font-size: 1rem;
   opacity: 0.7;
-  margin: 8px;
+  margin: 0.5rem;
 }
 
 /* sidebar */
 .sidebar {
   background-color: #121212;
-  width: 420px;
-  border-radius: 1rem; /* 1rem=16pxpx */
-  margin: 64px 4px 72px 8px;
+  width: 26.25rem;
+  border-radius: 1rem; /* 1rem=1rempx */
+  margin: 4rem 0.25rem 4.5rem0.5remem;
 }
 
 .library {
   display: flex;
   justify-content: center;
-  width: 420px;
-  height: 72px;
+  width: 26.25rem;
+  height: 4.5rem;
 }
 
 .inLib {
   display: flex;
   justify-content: space-between;
-  width: 388px;
-  height: 36px;
-  padding: 12px 16px 8px 16px;
+  width: 24.25rem;
+  height: 2.25rem;
+  padding: 0.75rem 1rem 0.5rem 1rem;
   align-items: center;
 }
 
 .inLib h1 {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0;
 }
 
 .inLib button {
-  width: 100px;
-  height: 36px;
-  padding: 8px 16px;
-  background-color: #1f1f1f;
-  border-radius: 2rem;
-  border: none;
-  color: white;
+  width: 6.25rem;
+  height: 2.25rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .inLib button i {
-  font-size: 16px;
+  font-size: 1rem;
   opacity: 0.7;
 }
 
 .inLib button span {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
 }
 
 .libBody {
-  padding: 0 8px 8px 8px;
-  width: 388px;
-  height: 398px;
+  padding: 0 0.5rem 0.5rem 0.5rem;
+  width: 24.25rem;
+  height: 24.875rem;
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .libcard {
   background-color: #1f1f1f;
-  width: 364px;
-  height: 102px;
-  padding: 16px 20px;
-  margin: 8px 0;
+  width: 22.75rem;
+  height: 6.375rem;
+  padding: 1rem 1.25rem;
+  margin: 0.5rem 0;
   font-weight: 700px;
   display: flex;
   flex-direction: column;
@@ -233,25 +228,14 @@ i {
 }
 
 .libcard span h1 {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 700px;
 }
 
 .libcard span span {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 400;
   opacity: 0.7;
-}
-
-.libcard_btn {
-  padding: 4px 16px;
-  font-size: 14px;
-  background-color: white;
-  color: black;
-  border: none;
-  border-radius: 2rem;
-  height: 32px;
-  font-weight: 700;
 }
 
 /* main-content */
@@ -260,16 +244,16 @@ i {
   border-radius: 1rem;
   flex: 1; /*assign other flex items the required space and the remaining entire space to this item*/
   overflow: auto;
-  margin: 64px 8px 72px 4px;
+  margin: 4rem 0.5rem 4.5rem 0.25rem;
 }
 
 .music-player {
   background-color: black;
   position: fixed;
   bottom: 0;
-  width: 1350px;
-  height: 56px;
-  padding: 8px;
+  width: 84.375rem;
+  height: 3.5rem;
+  padding: 0.5rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -285,35 +269,35 @@ i {
 .player {
   display: flex;
   justify-content: center;
-  width: 538px;
-  height: 32px;
-  margin-bottom: 8px;
-  gap: 16px;
+  width: 33.625rem;
+  height: 2rem;
+  margin-bottom: 0.5rem;
+  gap: 1rem;
 }
 
 .left {
   display: flex;
   justify-content: flex-end;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .right {
   display: flex;
   justify-content: flex-start;
-  gap: 8px;
+  gap: 0.5rem;
 }
 
 .music-controls img {
-  width: 16px;
-  height: 16px;
-  padding: 8px;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.5rem;
   opacity: 0.4;
 }
 
 .music-controls #play {
-  width: 32px;
-  height: 32px;
-  padding: 0px;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
 }
 
 .music-trackline {
@@ -321,51 +305,52 @@ i {
   justify-content: space-between;
   align-items: center;
   opacity: 0.4;
-  width:538px;
-    height: 12px;
+  width: 33.625rem;
+  height: 0.75rem;
 }
 
-.music-trackline .trackline div{
-  width: 422px;
-  position:relative;
-  top:2px;
-  bottom:6px;
-  height: 4px;
+.music-trackline .trackline div {
+  width: 26.375rem;
+  position: relative;
+  top: 0.125rem;
+  bottom: 0.375rem;
+  height: 0.25rem;
   background-color: #b3b3b3;
-  border-radius:6px;
+  border-radius: 0.375rem;
 }
 
 .music-trackline span {
-  width: 50px;
+  width: 3.125rem;
 }
+
 .extra-controls {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 403px;
-  height: 32px;
+  width: 25.1875rem;
+  height: 2rem;
 }
 
 .extra-controls img {
-  width:16px;
-  height:16px;
-  padding:8px;
+  width: 1rem;
+  height: 1rem;
+  padding: 0.5rem;
 }
 
-.extra-controls i{
-  font-size:16px;
-  padding:8px;
+.extra-controls i {
+  font-size: 1rem;
+  padding: 0.5rem;
 }
 
-.extra-controls .sound{
-  display:flex;
+.extra-controls .sound {
+  display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.extra-controls .sound div{
-  width:105px;
-  height:4px;
-  background-color:white;
-  border-radius:6px;
+.extra-controls .sound div {
+  width: 6.5625rem;
+  height: 0.25rem;
+  background-color: white;
+  border-radius: 0.375rem;
 }
